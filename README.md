@@ -1,4 +1,4 @@
-Arduino_Keynote_Basics
+Arduino Keynote
 ======================
 
 Keynote for Arduino basics workshop.
