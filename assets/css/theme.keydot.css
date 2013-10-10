@@ -1,0 +1,151 @@
+
+@import url("http://fonts.googleapis.com/css?family=Nunito:400,300");
+.keydot{
+	font-family:'Seravek';
+	background:#00878F url("../image/green-bg.png");
+	color:#ffffff;
+	text-shadow:0px 1px 1px rgba(0, 0, 0, 0.5);		
+}
+.keydot mark{
+	/*color:#FFC507;*/
+	color: #005257;
+    opacity: 0.9;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.5);
+}
+.keydot progress span{background:#FFC507;}
+/*
+.keydot h1{text-shadow:0px 10px 10px rgba(0, 0, 0, 0.5);}
+.keydot h2{text-shadow:0px 8px 8px rgba(0, 0, 0, 0.5);}
+.keydot h3{text-shadow:0px 6px 6px rgba(0, 0, 0, 0.5);}
+.keydot h4{text-shadow:0px 4px 4px rgba(0, 0, 0, 0.5);}
+*/
+.keydot .box.white{color:#ffffff;}
+.keydot a{
+	color: #000;
+    opacity: 0.5;
+	}
+.keydot a:hover,.keydot a:active{
+	color:#fff;
+	opacity: 0.7;
+}
+.keydot .box{
+	-webkit-box-shadow:0px 4px 8px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0px 4px 8px rgba(0, 0, 0, 0.5);
+	box-shadow:0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.keydot .bordered{border:solid 8px #ffffff;}
+
+.logo.dio {
+	color: inherit;
+	/*font-family:'dioFont';*/
+}
+	
+.logo.dio.mini:before{content:'d';}
+.logo.dio.big:before{content:'D';}
+
+.logopie{
+	position:absolute;
+	font-size:53px;
+	margin-top:14px;
+	margin-left:-145px;
+}
+
+h1 mark{	
+	font-size:1.4em;
+}
+
+.keydot .lipad li{
+	padding:3px;	
+}
+.keydot .top5{margin-top:5%;}
+.keydot .top10{margin-top:10%;}
+
+.keydot h1.big{
+	font-size:4.5em;
+}
+
+.altfont{
+	font-family:'Seravek';
+	font-weight: 300; 
+}
+
+.keydot .box.clear{
+	background:rgba(255, 255, 255, 0);	
+	-webkit-box-shadow:0px 4px 8px rgba(0, 0, 0, 0.0);
+	-moz-box-shadow:0px 4px 8px rgba(0, 0, 0, 0.0);
+	box-shadow:0px 4px 8px rgba(0, 0, 0, 0.0);
+}
+
+.trama{
+	position:absolute;
+	width:100%;
+	height:100%;
+	/*
+	background-image:-webkit-radial-gradient(50% 50%, circle ,rgba(255,255,255,0.25) 0% ,rgba(0,0,0,0.0) 100%);
+	background-image:-moz-radial-gradient(50% 50%, circle ,rgba(255,255,255,0.25) 0% ,rgba(0,0,0,0.0) 100%);
+	background-image:-ms-radial-gradient(50% 50%, circle ,rgba(255,255,255,0.25) 0% ,rgba(0,0,0,0.0) 100%);
+	background-image:-o-radial-gradient(50% 50%, circle ,rgba(255,255,255,0.25) 0% ,rgba(0,0,0,0.0) 100%);
+	background-image:radial-gradient(50% 50%, circle ,rgba(255,255,255,0.25) 0% ,rgba(0,0,0,0.0) 100%);
+	*/
+	background:url("../image/pattern-epic.png");
+}
+
+.ffirts{
+	text-align: left;
+	margin-left: 35px;
+}
+
+h1.ffirts{
+	font-size: 2.5em;
+}
+
+h4.ffirts{
+	font-size: 1em;
+}
+
+ .ffirts mark{
+	background-color: #62AEB2;
+	padding: 0 25px;
+}
+
+.copyright img{
+	height: 57px;
+    width: 185px;
+    margin-left: -20px;
+    margin-top: 50px;
+    top: 35px;
+}
+
+.main.lbanner{
+	position: absolute;	
+	left: 0;	
+	background-color: rgba(98, 174, 178, 0.85);		
+	height: 100%;
+	width: 500px;
+	margin: 0;
+	padding: 17.5% 0 0 70px;
+}
+
+.main.subtitle{
+	margin-top: 45px;
+	background-color: #62AEB2;
+	width: 330px;
+	padding: 10px;
+
+}
+
+.main.hanner{
+	position: absolute;
+	left: 0;	
+	background-color: rgba(98, 174, 178, 0.85);		
+	height: 400px;
+	width: 100%;
+	margin: 15% 0 0 0;
+	/*padding: 17.5% 0 0 70px;*/
+}
+
+
+/*text styles*/
+.tleft{
+	text-align: left;
+}
